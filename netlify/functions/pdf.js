@@ -1,7 +1,7 @@
 require('dotenv').config()
 const chromium = require('chrome-aws-lambda')
 
-const createPDF = async ({ url = 'https://www.google.com' }) => {
+const createPDF = async ({ url = 'https://www.pinterest.fr/jljiu999999' }) => {
   let browser
   const executablePath = process.env.CHROME_EXEC_PATH || await chromium.executablePath
   try {
